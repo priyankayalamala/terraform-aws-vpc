@@ -65,38 +65,19 @@ database_subnet_ids - 2 database subnet ID created
 
 
 
-AWS VPC Module
-
-This Terraform module creates a Highly Available (HA) VPC architecture using the first two Availability Zones (AZs) automatically.
-
-Resources Created
-
-The following AWS resources are created by this module:
-
-VPC
-
-Internet Gateway with VPC association
-
-2 Public Subnets (AZ 1a and 1b)
-
-2 Private Subnets (AZ 1a and 1b)
-
-2 Database Subnets (AZ 1a and 1b)
-
-Elastic IP
-
-NAT Gateway in Public Subnet (AZ 1a)
-
-Public Route Table
-
-Private Route Table
-
-Database Route Table
-
-Subnet and Route Table Associations
-
-VPC Peering (if user enables it)
-
-Peering routes added to default VPC if acceptor VPC is not explicitly provided
-
-Peering routes added to Public, Private, and Database route tables
+⭐ VPC
+⭐ Internet Gateway with VPC association
+⭐ 2 Public Subnets in AZ 1a and 1b
+⭐ 2 Private Subnets in AZ 1a and 1b
+⭐ 2 Database Subnets in AZ 1a and 1b
+⭐ Elastic IP
+⭐ NAT Gateway in Public Subnet (AZ 1a)
+⭐ Public Route Table
+⭐ Private Route Table
+⭐ Database Route Table
+⭐ Subnet and Route Table Associations
+⭐ VPC Peering (if user enables it)
+⭐ Peering route added to Default VPC if acceptor VPC is not explicitly provided
+⭐ Peering routes added to Public Route Table
+⭐ Peering routes added to Private Route Table
+⭐ Peering routes added to Database Route Table

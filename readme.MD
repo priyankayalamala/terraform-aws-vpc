@@ -7,8 +7,10 @@ VPC
 IGW
 
 2 Public subnets in us-east-1a and us-east-1b AZ
+
 2 Private subnets in us-east-1a and us-east-1b AZ
-2 Database subnets in us-east-1a and us-east-1b AZ
+
+2 Database subnets in us-east-1a and us-east-1b AZ.
 Public Route table
 Private Route table
 Database Route table

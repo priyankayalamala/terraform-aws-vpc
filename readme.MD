@@ -1,4 +1,4 @@
-Terraform AWS VPC
+#Terraform AWS VPC
 
 This module creates the following resources.
 
@@ -52,7 +52,7 @@ subnet_cidrs are required
 
 
 
-**Outputs**
+#**Outputs**
 
 vpc_id - VPC ID created
 

@@ -1,4 +1,4 @@
-#Terraform AWS VPC
+# Terraform AWS VPC
 
 This module creates the following resources.
 
@@ -35,7 +35,7 @@ Public route table to default VPC route
 Default VPC main route table to created VPC route
 
 
-**Inputs**
+# **Inputs**
 
 vpc_cidr - (Required). User must supply the CIDR for VPC.
 
@@ -52,7 +52,7 @@ subnet_cidrs are required
 
 
 
-#**Outputs**
+# **Outputs**
 
 vpc_id - VPC ID created
 

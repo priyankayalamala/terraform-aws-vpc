@@ -63,21 +63,3 @@ private_subnet_ids - 2 private subnet ID created
 database_subnet_ids - 2 database subnet ID created
 
 
-
-
-⭐ VPC
-⭐ Internet Gateway with VPC association
-⭐ 2 Public Subnets in AZ 1a and 1b
-⭐ 2 Private Subnets in AZ 1a and 1b
-⭐ 2 Database Subnets in AZ 1a and 1b
-⭐ Elastic IP
-⭐ NAT Gateway in Public Subnet (AZ 1a)
-⭐ Public Route Table
-⭐ Private Route Table
-⭐ Database Route Table
-⭐ Subnet and Route Table Associations
-⭐ VPC Peering (if user enables it)
-⭐ Peering route added to Default VPC if acceptor VPC is not explicitly provided
-⭐ Peering routes added to Public Route Table
-⭐ Peering routes added to Private Route Table
-⭐ Peering routes added to Database Route Table
